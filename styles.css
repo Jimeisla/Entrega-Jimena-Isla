@@ -1,0 +1,35 @@
+body {
+  background-image: url('imagenes/Fondo\ 5.png'); /* Cambia esta ruta por la de tu imagen */
+  background-size: cover;       /* Hace que la imagen cubra todo el fondo */
+  background-position: center;  /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  padding: 2rem;
+}
+
+h3 {
+  color: #f0f0f0 !important;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+h6 {
+  color: #e2e2e2 !important;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+button.btn {
+  background-color: #000736;
+  border: none;
+  padding: 10px 20px;
+  font-weight: 600;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+button.btn:hover {
+  background-color: #5027b1d5;
+  transform: scale(1.05);
+}
